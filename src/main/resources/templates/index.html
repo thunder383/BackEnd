@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to Auto Find</title>
+    <link rel="stylesheet" href="css/AutoFind.css">
+
+
+  </head>
+  <body>
+    <style>
+body {
+  background-image: url('images/grey-background.jpeg');
+}
+</style>
+
+    <section id = "logo">
+    <img src="images/logo.png" alt= "logo" style = "width:400px;" height="200px"
+    </section>
+
+    <section id = "navBar" th:replace="navBar :: navBar"></section>
+
+<section id = "intro">
+  <div class="newstock">
+    <div class="title">
+      <h1>STOCK</h1>
+    <img src="images/carstock.jpeg" alt="stock" style="width:15%;">
+    <p1> We focus on selling quality cars that are durable and aesthically pleasing. Here at AutoFind we have cars from companys such as BMW, Citreon and Mercedes.
+      <br> We have more cars available and plenty more that we plan on adding in the future<p1>
+        <br>
+      <p>To be the first to know when new stock arrive, email us for more information!</p>
+    </div>
+  </div>
+
+<div class="warranty">
+  <div class="titletwo">
+    <h1>WARRANTY</h1>
+  <img src="images/carwarranty.jpeg" alt="
+  warranty" style="width:20%; style = align:center";>
+  <p1> Ensuring that customers are satisfied with our vehicles and services, we offer a 3 - year
+    warranty on brand new cars and a 1 - year on used cars purchased from us.<br>
+    We aim to sell reliable cars that people can enjoy. <br>
+    This warranty covers most aspects of
+    the car such as the clutch, brakes, engine and steering <p1>
+      <br>
+  <p>We offer amazing warranty with all used and new cars, contact us for more information! </p>
+ </div>
+</div>
+
+  <div class="sourcing">
+   <div class="titlethree">
+    <h1>SOURCING</h1>
+     <img src="images/carsource.jpeg " alt="Sourcing" style="width:20%;">
+      <p1>We are committed to finding a vehicle of your choice, if we don't have what you are looking for in our current stock.
+  We have built a network of contacts throughout the trade over the years and have access to a number of car finding platforms to allow us to find a car tailored to you.
+<br>Buying a new or used car is one of the most expensive purchases you will make.
+<p1>
+Ensure you are dealing with a car dealer who can deliver time after time and only offers the best and most competitive prices in the country.
+    <p>Are you looking for a special vehicle, one of a kind, then contact us as we offer vehicle sourcing for our customers.</p>
+  </div>
+  </div>
+</section>
+
+
+
+
+  </body>
+</html>
